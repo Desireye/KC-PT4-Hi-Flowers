@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi! Flowers | Our Gallery</title>
+    <link href="./style.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="container">
+     <!-- nav bar -->
+    <nav class="flex flex-col lg:flex-row justify-evenly p-4 border-2"">
+        <a href="index.html" class="md:text-2xl text-sm text-red-400 font-bold">
+            Hi! Flowers</a>
+        <a href="./about.html" class="navlink">About Us</a>
+        <a href="./contact.html" class="navlink">Contact Us</a>
+        <a href="./gallery.html" class="navlink">Our Gallery</a>
+    </nav>
+
+    <!-- gallery grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-3  mt-10 gap-10">
+        <div>
+            <img src="./assets/minimal-floral-arrangement-red-surface.jpg" class="rounded-2xl" alt="flowers">
+        </div>
+        <div>
+            <img src="./assets/minimal-floral-arrangement-small-vase.jpg" class="rounded-2xl" alt="flowers">
+        </div>
+        <div>
+            <img src="./assets/various-flowers-box-white-table.jpg" class="rounded-2xl" alt="flowers">
+        </div>
+        <div>
+            <img src="./assets/side-view-bouquet-colorful-roses-pink-color-alstroemeria-flowers-gift-box-black-table.jpg" class="rounded-2xl" alt="flowers">
+        </div>
+        <div>
+            <img src="./assets/minimal-multi-floral-arrangement-red-surface.jpg" class="rounded-2xl" alt="flowers">
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="bg-black text-white p-8 mt-10 flex justify-evenly
+    -mb-10 -ml-10 -mr-10">
+        <div>
+            <h1 class="text-rose-500 text-2xl lg:text-4xl">Hi! Flowers</h1>
+            <h6>© 2026 Desire</h6>
+        </div>
+        <ul>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+            <li><a href="./gallery.html">Our Gallery</a></li>
+        </ul>
+        <div class="flex pt-6 gap-2 lg:gap-8">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
